@@ -1,0 +1,12 @@
+apiVersion: v2
+name: app1
+description: Helm chart for app1
+
+type: application
+version: 0.0.1
+appVersion: "1.0"
+
+dependencies:
+- name: match-default
+  version: 0.11
+  repository: artifactory.i.mct360.com/artifactory/ma-helm
